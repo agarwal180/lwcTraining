@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Permission Example" icon-name="custom:custom19">
+    <div if:true={isSetupEnabled}>
+        has Setup Permission
+    </div>
+    <div if:true={isReportVisible}>
+        has Report Custom Permission
+    </div>
+    </lightning-card>
+</template>
